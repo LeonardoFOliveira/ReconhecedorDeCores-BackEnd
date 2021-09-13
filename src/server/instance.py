@@ -10,8 +10,5 @@ class Server():
             description='Documentação de serviços de Reconhecedor de Cores',
             doc='/docs'
         )
-    
-    def run(self,):
-        self.app.run()
 
 server = Server()
